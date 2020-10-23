@@ -25,6 +25,9 @@ Aplicação realizada durante o curso de [Java Nelio Alves](https://www.udemy.co
 
 ## Definições aprendidas
 
-Ao utilizar interfaces e deixar uma classe externa (Program) gerenciar a definição de qual regra de negócio deve ser utilizadas permite criar uma aplicação desacoplada, além de permitir a reutilização da classe da regra de negócio e da própria interface.
+**Inversão de controle:** Ao utilizar interfaces e deixar uma classe externa (Program) gerenciar o controle de qual instancia deve ser utilizadas. 
+**Injeção de dependencas:** Quando definimos qual a instancia que deve ser utiliziada ao instanciar uma classe eu faço uma injeção de dependencia.
+**Princípio SOLID OCP Princípio Aberto-Fechado:** Quando utilizamos a composição de objetos utilizando a interface, quando mudarmos uma regra de negócio não é necessário entrar na classe de serviço para modificá-la.
+**Acoplamento:** Utilizando interfaces e services consigo manter a aplicação desacoplada, justamente porque posso reutilizar a classe service(ContractService) para outras taxas.
 
 
