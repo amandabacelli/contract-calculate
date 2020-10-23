@@ -23,3 +23,8 @@ Aplicação realizada durante o curso de [Java Nelio Alves](https://www.udemy.co
 
 ![Exemplo saída terminal](https://github.com/amandabacelli/contract-calculate/blob/main/example.png)
 
+## Definições aprendidas
+
+Ao utilizar interfaces e deixar uma classe externa (Program) gerenciar a definição de qual regra de negócio deve ser utilizadas permite criar uma aplicação desacoplada, além de permitir a reutilização da classe da regra de negócio e da própria interface.
+
+
