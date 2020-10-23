@@ -1,6 +1,11 @@
 # Compiled class file
 *.class
 
+# Files
+contract-calculate.iml
+.idea
+out
+
 # Log file
 *.log
 
